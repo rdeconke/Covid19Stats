@@ -1,0 +1,29 @@
+Question 1 - Are rising cases due to the reopening of schools? What percentage of covid cases are due to the reopening of schools?
+
+python Q1/Q1SchoolTotal.py | more
+python Q1/Q1SchoolTotal.py > Q1/q1.csv
+python Q1/Q1Plot.py Q1/q1.csv Q1/q1.pdf
+
+Question 2 - How well are different regions dealing with and handling outbreaks in their areas?
+
+python Q2/Q2RegionalDifferences.py 2246 2270
+python Q2/Q2RegionalDifferences.py 2246 2270 > Q2/q2.csv
+python Q2/Q2Plot.py Q2/q2.csv Q2/q2.pdf
+
+Question 3 - What age group is affected most by the virus?
+
+python Q3/Q3AgeGroupDifference.py 2021-02-25
+python Q3/Q3AgeGroupDifference.py 2021-02-25 > Q3/q3.csv
+python Q3/Q3Plot.py Q3/q3.csv Q3/q3.pdf
+
+Question 4 - How does the pandemic affect employment rates?
+
+python Q4/Q4EmploymentRates.py 2020-01 2021-02 | more
+python Q4/Q4EmploymentRates.py 2020-01 2021-02 > Q4/q4.csv
+python Q4/Q4Plot.py Q4/q4.csv Q4/q4.pdf
+
+Question 5 - Is the reopening of schools affecting students or staff more?
+
+python Q5/Q5StudentStaff.py 2020-09-10
+python Q5/Q5StudentStaff.py 2020-09-10 > Q5/q5.csv
+python Q5/Q5Plot.py Q5/q5.csv Q5/q5.pdf
